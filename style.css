@@ -1,0 +1,88 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'Kanit', sans-serif;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0,0,0, 0.95)), 
+	url(background.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+#hero {
+	background-image: url("background.jpg");
+	background-size: cover;
+}
+
+#icon{
+	width: 100%;
+	height: auto;
+}
+
+h1{
+	font-size: 3rem;
+	color: crimson;
+	justify-content: center;
+}
+hr {
+    margin: 20px auto;
+    border: 1px solid crimson;
+    opacity: 1; 
+    max-width: 250px;
+}
+
+.btn-xl{
+	padding: 1rem 2rem;
+}
+
+.btn{
+	font-weight: 700;
+	border-radius: 300px;
+}
+
+.btn-primary{
+	background-color: crimson;
+	border-color: crimson;
+}
+
+.btn:hover{
+	background-color: #A0112D;
+	border-color: #A0112D;
+}
+
+.fade-in {
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.top-nav{
+	padding: 0;
+}
